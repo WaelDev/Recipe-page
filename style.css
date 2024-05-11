@@ -1,0 +1,91 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+  /* Colors */
+  --Dark_Raspberry: hsl(332, 51%, 32%);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --White: hsl(0, 0%, 100%);
+  --Rose_White: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --Light_Grey: hsl(30, 18%, 87%);
+  --Wenge_Brown: hsl(30, 10%, 34%);
+  --Dark_Charcoal: hsl(24, 5%, 18%);
+
+  /* Fonts */
+  --body-font: "Outfit", sans-serif;
+  --title-font: "Young Serif", serif;
+  --title-font-weight: 400;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: var(--body-font);
+  font-size: 16px;
+  background: var(--Eggshell);
+}
+
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  background-color: var(--White);
+  border-radius: 10px;
+  width: 500px;
+}
+
+.image-cover {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: var(--title-font);
+  font-weight: var(--title-font-weight);
+}
+
+.preparation {
+  width: 100%;
+  background-color: var(--Rose_White);
+  border-radius: 10px;
+}
+
+.preparation h4 {
+  color: var(--Dark_Raspberry);
+}
+
+.ingrediants {
+  margin-top: 50px;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid black;
+}
+
+.title-m{
+  color: var(--Nutmeg);
+  font-family: var(--title-font);
+  font-weight: var(--title-font-weight);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
